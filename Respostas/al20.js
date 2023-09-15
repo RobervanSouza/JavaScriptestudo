@@ -16,3 +16,58 @@ for (let num = 2; num <= 1000; num++) { // Inicia um loop que itera de 2 até 10
 }
 
 //console.log(sum); // Imprime a soma dos números primos no console.
+
+function numeroDias(mes) {
+    if (mes < 1 || mes > 12) {
+        console.log('digite numero de mês entre 1 e 12')
+    } else {
+
+
+        switch (mes) {
+            case 2:
+                console.log('28 ou 29 dias')
+                break
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                console.log(' 30 dias')
+                break;
+            default:
+                console.log('31 dias')
+        }
+
+    }
+}
+//numeroDias(12)
+
+function corSemafaro(cores) {
+    if (cores == 'verde') {
+        console.log('siga')
+    } else if (cores == 'amarelo') {
+        console.log('atenção')
+    }else if (cores == 'vermelho'){
+        console.log('pare')
+    } else {
+        console.log('digite uma cor valida')
+    }
+}
+//corSemafaro('amarelo')
+
+for ( let i = 1; i <= 10; i++ ) {
+  //  console.log(i)
+}
+
+let i = 10;
+while(i >= 1) {
+   // console.log(i)
+    i--;
+}
+
+let i2 = 1;
+do {
+    if(i2 % 2 != 0){
+        console.log(i2)
+    }
+    i2++;
+} while (i2 <= 20)
