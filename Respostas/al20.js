@@ -97,7 +97,23 @@ while(t < 100){
 let p = 2;
 do {
     if(p % 2 == 0){
-        console.log(p)
+       // console.log(p)
     }
     p++;
 } while (p <= 100)
+
+
+// numeros primos menores que 100
+
+for (let pri = 1; pri <= 100; pri++){
+    let primo = true;
+    for ( let dividi = 2; dividi < pri ; dividi++){
+        if (pri % dividi == 0){
+            primo = false;
+            break
+        }
+    }
+    if (primo ){
+        console.log(pri)
+    }
+}
