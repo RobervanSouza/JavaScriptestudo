@@ -54,20 +54,50 @@ function corSemafaro(cores) {
 }
 //corSemafaro('amarelo')
 
+// motrar de 1 a 10
 for ( let i = 1; i <= 10; i++ ) {
   //  console.log(i)
 }
 
+// mostrar de um a 10 de forma decrescente.
 let i = 10;
 while(i >= 1) {
-   // console.log(i)
+//   console.log(i)
     i--;
 }
 
+// numeros impares
 let i2 = 1;
 do {
     if(i2 % 2 != 0){
-        console.log(i2)
+       // console.log(i2)
     }
     i2++;
 } while (i2 <= 20)
+
+// taboada de um ha 10
+for(let r = 1; r <= 10; r++){
+ //  console.log("5x" + r + "=" + 5 *r )
+}
+
+// soma todos os numeros de um a 100
+
+let t = 1;
+let soma = 0; 
+ 
+while(t < 100){
+    soma+=t 
+    t++;
+
+}
+//console.log(soma)
+
+
+// numeros pares menor que 100
+let p = 2;
+do {
+    if(p % 2 == 0){
+        console.log(p)
+    }
+    p++;
+} while (p <= 100)
