@@ -12,6 +12,7 @@ for (let num = 2; num <= 1000; num++) { // Inicia um loop que itera de 2 até 10
 
     if (primo) { // Verifica se num é primo com base no valor de primo.
         sum += num; // Se num é primo, adiciona num a sum.
+        
     }
 }
 
